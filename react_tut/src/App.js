@@ -1,3 +1,4 @@
+import ShowList from './Activities/ShowLists';
 import './App.css';
 import Box from './components/Box';
 import Button from './components/EventHandling/Button';
@@ -11,13 +12,16 @@ function App() {
 
       {/* Event handling */}
       {/* <Button/> */}
-      <Inputbox/>
-
+      {/* <Inputbox/> */}
+    
 
 
 
       {/* Hooks */}
+
       {/* <UseState></UseState> */}
+      {/* Activity */}
+      <ShowList/>
     </div>
   );
 }
